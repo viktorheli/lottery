@@ -1,4 +1,4 @@
-```lua
+
 torch.setdefaulttensortype('torch.FloatTensor')
 
 --cmd line arg
@@ -93,4 +93,4 @@ print ("Storing training data in file:",opt.save)
 torch.save(opt.save, datasave)
 dataset = torch.load(opt.save)
 print(dataset)
-```
+
