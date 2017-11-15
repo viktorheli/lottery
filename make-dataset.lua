@@ -70,12 +70,15 @@ count = 1
 count1 = 1
 for i = 1, #input do
         if i%2 == 1 then
-                inputs[count] = input[i]
-                count = count + 1
-        else
                 outputs[count1] = input[i]
                 count1 = count1 + 1
+
+        else
+                inputs[count] = input[i]
+                count = count + 1
+
         end
+
 
 end
 
